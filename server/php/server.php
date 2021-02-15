@@ -3,7 +3,8 @@
 require __DIR__  . '/vendor/autoload.php';
 
 //REPLACE WITH YOUR ACCESS TOKEN AVAILABLE IN: https://developers.mercadopago.com/panel/credentials
-MercadoPago\SDK::setAccessToken("YOUR_ACCESS_TOKEN");
+MercadoPago\SDK::setAccessToken("APP_USR-8208253118659647-112521-dd670f3fd6aa9147df51117701a
+2082e-677408439");
 
 $path = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 
@@ -26,9 +27,9 @@ switch($path){
         $preference->items = array($item);
 
         $preference->back_urls = array(
-            "success" => "http://localhost:8080/feedback",
-            "failure" => "http://localhost:8080/feedback", 
-            "pending" => "http://localhost:8080/feedback"
+            "success" => "http://localhost/feedback",
+            "failure" => "http://localhost/feedback", 
+            "pending" => "http://localhost/feedback"
         );
         $preference->auto_return = "approved"; 
 
