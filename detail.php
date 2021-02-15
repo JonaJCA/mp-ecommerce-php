@@ -151,11 +151,11 @@ $preference->save();
                                             <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                     </div>
-                                        <form action="/procesar-pago" method="_POST">
+                                        
                                             <script  src="https://www.mercadopago.com.pe/integrations/v1/web-payment-checkout.js"  data-preference-id="<?php echo $preference->id; ?>">
                                         
                                         </script>
-                                    </form>
+                                    
                                         
                                 </div>
                             </div>
