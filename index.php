@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php 
+  require_once "vendor/autoload.php";
+ ?>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=1024">
@@ -257,7 +260,7 @@
                                                 $15.000
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
+                                        <form action="detail.php" method="get">
                                             <input type="hidden" name="img" value="./assets/samsung-galaxy-s9-xxl.jpg">
                                             <input type="hidden" name="title" value="Samsung Galaxy S9">
                                             <input type="hidden" name="price" value="15000">
