@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<?php 
-  require_once "vendor/autoload.php";
- ?>
+
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=1024">
