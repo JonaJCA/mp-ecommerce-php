@@ -152,7 +152,7 @@ $preference->save();
                                         </h3>
                                     </div>
                                         
-                                            <script  src="https://www.mercadopago.com.pe/integrations/v1/web-payment-checkout.js"  data-preference-id="<?php echo $preference->id; ?>">
+                                              <script  src="https://www.mercadopago.com.pe/integrations/v1/web-payment-checkout.js"  data-preference-id="<?php echo $preference->id; ?>">
                                         
                                         </script>
                                     
